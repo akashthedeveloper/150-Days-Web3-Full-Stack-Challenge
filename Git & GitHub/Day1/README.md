@@ -18,6 +18,8 @@
 
 ## Clone - It is the process to copy the repo from github to our local system which pull downs a copy of that repo in our system
 
+## HEAD - It is reference to most recent commit in current branch
+
 ```sh
    git -- version  : To get version of the git
 ```
@@ -133,6 +135,10 @@
 ```
 
 ```sh
+   git revert "log id code" : It is used to undo the commited file
+```
+
+```sh
    git stash : It is used to save the files and folders in backup whenver required and is not saved in present file
 ```
 
@@ -153,11 +159,31 @@
 ```
 
 ```sh
+   git remote -v : To push the code to github
+```
+
+```sh
+   git push : To push code to master branch
+```
+
+```sh
+   git push -u origin "branch name" : To push code to other branches than master
+```
+
+```sh
    git remote remove origin : To remove the origin branch
 ```
 
 ```sh
-   git remote add origin "repo url" : To connect local repository to the remote git repo
+   git remote add origin "repo url" : To connect local repository to the remote git repo. Here origin  refers to original repo of that project
+```
+
+```sh
+   git pull remote main or "other branch name" : The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content
+```
+
+```sh
+   git push -f origin main : To push code to main branch 
 ```
 
 ## To upload or push your personal projects to git
