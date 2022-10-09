@@ -99,6 +99,10 @@
 ```
 
 ```sh
+   git checkout main : To upload the files and folders to main branch
+```
+
+```sh
    git branch -d "branch name" : To delete the branch 
 ```
 
@@ -142,6 +146,14 @@
 
 ```sh
    git merge "branch name" : To merge the file from one branch to other
+```
+
+```sh
+   git remote remove origin : To remove the origin branch
+```
+
+```sh
+   git remote add origin "repo url" : To connect local repository to the remote git repo
 ```
 
 ## To upload or push your personal projects to git
