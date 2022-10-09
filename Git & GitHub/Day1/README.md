@@ -79,5 +79,5 @@
 ```
 
 ```sh
-   git log : It will history of all the commit made to the repository
+   git log : It will show history of all the commit made to the repository
 ```
