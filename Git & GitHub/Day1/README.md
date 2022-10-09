@@ -1,6 +1,6 @@
 # Git and GitHub
 
-## What is Git? : It is a Version Control System(VCS) which allows us to maintain history of the project and different versions of it
+## Git - It is a Version Control System(VCS) which allows us to maintain history of the project and different versions of it
 
 ## GitHub - It is a platfrom which allow us to host our local projects in our system to a cloud of it
 
