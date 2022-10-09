@@ -45,11 +45,11 @@
 ```
 
 ```sh
-   touch "file name.extension" : To create a new file
+   touch "file name.extension" or copy con "file name" : To create a new file
 ```
 
 ```sh
-   ls : To list all the files and folders
+   ls or dir : To list all the files and folders
 ```
 
 ```sh
