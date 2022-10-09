@@ -15,5 +15,21 @@
 ## Pull Request - People collaborate on pull request. The pull rrquest shows changes of your file to the other person. The pull request will propose the changes you made in the file and show it in main repository
 
 ```sh
-   ls - It list all the files and folders
+   git -- version  : To get version of the git
+```
+
+```sh
+   git config --global username "your name here"  : To enter your name globally
+```
+
+```sh
+   git config --global user.email "your email id here" : To enter your email globally
+```
+
+```sh
+   git config --global--edit : To change name and email id
+```
+
+```sh
+   ls : It list all the files and folders
 ```
