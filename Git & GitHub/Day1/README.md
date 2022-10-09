@@ -171,3 +171,5 @@
 ### Step 1 : Fork the repository
 
 ### Step 2 : git clone "repo url"
+
+### Step 3 : Start contributing to the projects
