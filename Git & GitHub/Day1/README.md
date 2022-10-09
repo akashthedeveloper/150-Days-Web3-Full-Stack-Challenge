@@ -31,5 +31,21 @@
 ```
 
 ```sh
-   ls : It list all the files and folders
+   mkdir "folder name"  : To create a folder with name eg: full-stack
+```
+
+```sh
+   cd "folder name" / "file name" : To change the directory path to any specific file or folder
+```
+
+```sh
+   touch "file name.extension" : To create a new file
+```
+
+```sh
+   ls : To list all the files and folders
+```
+
+```sh
+   ls - a  : To show all the hidden files  in the repository
 ```
