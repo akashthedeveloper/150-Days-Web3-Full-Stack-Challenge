@@ -14,6 +14,10 @@
 
 ## Pull Request - People collaborate on pull request. The pull rrquest shows changes of your file to the other person. The pull request will propose the changes you made in the file and show it in main repository
 
+## Fork - It is process to copy others repo in our folder or repo is called forking so that we can start contributing to the projects without affecting the original projects
+
+## Clone - It is the process to copy the repo from github to our local system which pull dows a copy of that repo in our system
+
 ```sh
    git -- version  : To get version of the git
 ```
