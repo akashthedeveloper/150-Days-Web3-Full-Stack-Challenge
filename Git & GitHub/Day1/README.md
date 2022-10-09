@@ -97,3 +97,23 @@
 ```sh
    git checkout -- .  : To discard all the changes made in all files or repo
 ```
+
+```sh
+   git branch -d "branch name" : To delete the branch 
+```
+
+```sh
+   vim "file name" : To go in Vim editor to change the file
+```
+
+```sh
+   cat "file name" : It displays whatever is there in file
+```
+
+```sh
+   rm -rf "file name" : To delete the file
+```
+
+```sh
+   git restore --staged "file name" : To discard the changes when file is added to stagging area i.e commit stage
+```
