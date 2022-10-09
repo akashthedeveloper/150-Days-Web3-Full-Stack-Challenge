@@ -119,7 +119,9 @@
 ```
 
 ```sh
-   git reset "log id code" : It is basically used to if by mistaken some file or folder is deleted or any file is commited and we do not want to commit that than it is used to get back to previous where it was
+   git reset "log id code" : It is basically used to if by mistaken some file or folder is deleted or 
+   any file is commited and we do not want to commit that than it is used to get back to previous 
+   where it was
 ```
 
 ```sh
