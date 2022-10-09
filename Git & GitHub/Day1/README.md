@@ -47,5 +47,5 @@
 ```
 
 ```sh
-   ls - a  : To show all the hidden files  in the repository
+   ls - a  : To show all the hidden files in the repository
 ```
