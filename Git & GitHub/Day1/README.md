@@ -117,3 +117,15 @@
 ```sh
    git restore --staged "file name" : To discard the changes when file is added to stagging area i.e commit stage
 ```
+
+```sh
+   git reset "log id code" : It is basically used to if by mistaken some file or folder is deleted or any file is commited and we do not want to commit that than it is used to get back to previous where it was
+```
+
+```sh
+   git stash : It is used to save the files and folders in backup whenver required and is not saved in present file
+```
+
+```sh
+   git stash pop : It is used to bring the files and folders back into stagging area
+```
