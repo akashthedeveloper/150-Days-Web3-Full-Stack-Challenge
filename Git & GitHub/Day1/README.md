@@ -131,3 +131,11 @@
 ```sh
    git stash pop : It is used to bring the files and folders back into stagging area
 ```
+
+```sh
+   git difftool <HEAD> : It shows the difference between your local changes and previous version of file
+```
+
+```sh
+   touch .gitignore : To ignore the file and create the .gitignore file
+```
