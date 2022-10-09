@@ -13,3 +13,7 @@
 ## Commit - It is the set of changes made to the file or repository. A commit is visible in the branch
 
 ## Pull Request - People collaborate on pull request. The pull rrquest shows changes of your file to the other person. The pull request will propose the changes you made in the file and show it in main repository
+
+```sh
+   ls - It list all the files and folders
+```
