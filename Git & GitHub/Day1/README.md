@@ -16,7 +16,7 @@
 
 ## Fork - It is process to copy others repo in our folder or repo is called forking so that we can start contributing to the projects without affecting the original projects
 
-## Clone - It is the process to copy the repo from github to our local system which pull dows a copy of that repo in our system
+## Clone - It is the process to copy the repo from github to our local system which pull downs a copy of that repo in our system
 
 ```sh
    git -- version  : To get version of the git
