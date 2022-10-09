@@ -49,3 +49,35 @@
 ```sh
    ls - a  : To show all the hidden files in the repository
 ```
+
+```sh
+   git clone "repo url" : For cloning remote repository to our local system
+```
+
+```sh
+   git init : To initialize the git
+```
+
+```sh
+   git add "file name"  : To add the single file
+```
+
+```sh
+   git add .  : To add all the files and folders of the projects
+```
+
+```sh
+   git status : To show the status of your files and folders
+```
+
+```sh
+   git commit -m "write message here" - To commit the changes of the files
+```
+
+```sh
+   clear : To clear all the commands
+```
+
+```sh
+   git log : It will history of all the commit made to the repository
+```
