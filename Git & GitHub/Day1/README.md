@@ -8,4 +8,4 @@
 
 ## README.md - It is an about me section of the github repository where the project is been described using the markdown language
 
-## Branch - It is the parallel version of your repository and by default it is a "main" branch. There is anaother branch called "master" which is for pushing code or file to the production level
+## Branch - It is the parallel version of your repository and by default it is a "main" branch . There is anaother branch called master which is for pushing code or file to the production level
