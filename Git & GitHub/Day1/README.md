@@ -153,3 +153,9 @@
 ### Step 3 : git remote add origin "repo url"
 
 ### Step 4 : git push origin master
+
+## To contribute to any projects or open-source software
+
+### Step 1 : Fork the repository
+
+### Step 2 : git clone "repo url"
