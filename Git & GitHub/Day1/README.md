@@ -139,3 +139,17 @@
 ```sh
    touch .gitignore : To ignore the file and create the .gitignore file
 ```
+
+```sh
+   git merge "branch name" : To merge the file from one branch to other
+```
+
+## To upload or push your personal projects to git
+
+### Step 1 : Create a repository on github
+
+### Step 2 : Copy the repository link
+
+### Step 3 : git remote add origin "repo url"
+
+### Step 4 : git push origin master
