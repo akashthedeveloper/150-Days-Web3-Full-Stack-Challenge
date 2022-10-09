@@ -81,3 +81,19 @@
 ```sh
    git log : It will show history of all the commit made to the repository
 ```
+
+```sh
+   git branch "new branch name" : To create new branch 
+```
+
+```sh
+   git checkout "new branch name" : To make new branch active from the previous branch
+```
+
+```sh
+   git checkout --"file name" : To discard the changes in single file
+```
+
+```sh
+   git checkout -- .  : To discard all the changes made in all files or repo
+```
