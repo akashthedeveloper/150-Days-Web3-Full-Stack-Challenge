@@ -18,3 +18,13 @@ This is the basic structure of HTML
 </body>
 </html>
 ```
+
+```html
+It varies from <h1> to <h6> where h1 is the boggest and h6 is the smallest
+<h1> This is heading tag </h1>
+```
+
+```html
+It is used to divide the page into section and allow to group the items to apply the same style
+<div> This is the division tag </div>
+```
