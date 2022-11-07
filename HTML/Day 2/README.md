@@ -1,8 +1,10 @@
-## Guide To HTML5
+## Complete Guide To HTML5
 
 ## HTML: It is HyperText Markup Language
 
 ```html
+This is the basic structure of HTML
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
