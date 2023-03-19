@@ -1,6 +1,6 @@
 ## Complete Guide To HTML5
 
-## HTML: It is HyperText Markup Language
+### HTML: It is HyperText Markup Language
 
 ```html
 This is the basic structure of HTML
