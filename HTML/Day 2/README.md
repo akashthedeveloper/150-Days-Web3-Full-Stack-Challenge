@@ -19,22 +19,21 @@ This is the basic structure of HTML
 </html>
 ```
 
-### It varies from <h1> to <h6> where h1 is the biggest and h6 is the smallest
+#### It varies from h1 to h6 where h1 is the biggest and h6 is the smallest
 ```html
 <h1> This is heading tag </h1>
 ```
-### It is used to divide the page into section and allow to group the items to apply the same style
+#### It is used to divide the page into section and allow to group the items to apply the same style
 ```html
 <div> This is the division tag </div>
 ```
-### It is paragraph tag which is having the closing tag
+#### It is paragraph tag which is having the closing tag
 ```html
 <p> This is paragraph tag </p>
 ```
 
+#### It is line breaking tag. It is used to put paragraph sentence in next line and it doesn't have closing tag
 ```html
-It is line breaking tag. It is used to put paragraph sentence in next line and it doesn't have closing tag
-
 <br> This is line breaking tag
 ```
 
