@@ -19,21 +19,16 @@ This is the basic structure of HTML
 </html>
 ```
 
+### It varies from <h1> to <h6> where h1 is the biggest and h6 is the smallest
 ```html
-It varies from <h1> to <h6> where h1 is the biggest and h6 is the smallest
-
 <h1> This is heading tag </h1>
 ```
-
+### It is used to divide the page into section and allow to group the items to apply the same style
 ```html
-It is used to divide the page into section and allow to group the items to apply the same style
-
 <div> This is the division tag </div>
 ```
-
+### It is paragraph tag which is having the closing tag
 ```html
-It is paragraph tag which is having the closing tag
-
 <p> This is paragraph tag </p>
 ```
 
