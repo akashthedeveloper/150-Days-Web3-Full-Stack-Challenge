@@ -64,9 +64,89 @@ Syntax of attributes: <tagname attribute name = "attribute value">
    <hr> This will give a horizonatal line in a HTML document </hr>
 ```
 
-###### In HTML document browser ignores whitespacing/spacing for a element. So for giving a spacing in the HTML document we use something called **HTML Entities** which is used to dispaly reserved characters in HTML. With the help of HTML entities we can dispaly reserved characters, special characters, emojiis and symbols.
+##### In HTML document browser ignores whitespacing/spacing for a element. So for giving a spacing in the HTML document we use something called **HTML Entities** which is used to dispaly reserved characters in HTML. With the help of HTML entities we can dispaly reserved characters, special characters, emojiis and symbols.
 
 ```html
 Syntax of entities: &entity_name; OR  &#entity_number;
 ```
+* &nbsp - whitespace 
+* &lt - less than(<) 
+* &gt - greater than(>) 
+* &Backslash- (/)
 
+#### Comments: It is used to make the understanding of code much better and easy for code review.The comments are not dispalyed in browser.
+
+```html
+   <!-- This is a comment in a HTML-->
+```
+###### For dispalying random text in p tag we use **lorem**
+
+
+```html
+  eg: <p> lorem 50 </p> 
+
+  Here 50 is used to specify the number of words
+```
+#### It is used for bolding a text called bold tag
+```html
+  <b> Bold Tag </b>
+```
+#### It is used for bold & important called strong tag
+```html
+  <strong> This is a strong tag </strong>
+```
+#### It is used for italic called called emphasize tag
+```html
+  <em> This is a italic tag </em>
+```
+#### It is used for underlining the text called underline tag
+```html
+  <u> This is a underline tag </u>
+```
+#### It is used to make text smaller called small tag
+```html
+   <small> This is a small tag </small>
+```
+#### It is used for marking or highlighting the text called mark tag
+```html
+   <mark> ThIs is a mark tag </mark>
+```
+#### It is used for deleting the text called delete tag
+```html
+   <del> This is a delete tag </del>
+```
+#### It is used for displaying exponential values called superscript tag
+```html
+   eg: 10 <sup> 2 </sup> 
+
+   Output - 10^2
+```
+#### It is used for displaying logarithmic values called subscript tag
+```html
+   eg: 10 <sub> 2 </sub>
+
+   Output - 10 base 2
+```
+#### List Tag: It is used for listing the elements called li tag. It contains 2 list:
+
+```html
+   <li> This is a list tag </li>
+```
+
+##### a) Ordered list: It is used to dispaly order such as number, alphabet, etc.
+
+```html
+  <ol> This is a order list </ol>
+
+  Order list: <ol>
+                <li> DSA </li>
+                <li> Development </li>
+              </ol>
+
+  Output: a) DSA
+          b) Development
+```
+###### For changing a) & b) in a ordered list to 1) & 2) we use type attribute
+```html
+   <ol type= "A: for capital letters, a: for small letters, I: for roman big number, i: for roman small number"> </ol>
+```
