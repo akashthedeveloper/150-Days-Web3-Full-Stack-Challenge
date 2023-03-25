@@ -161,3 +161,39 @@ Syntax of entities: &entity_name; OR  &#entity_number;
 
 ##### Nesting - It is used to put one tag into another.
 
+#### It is called span tag used for short pieces of content to separate them which are in a same line or other.
+
+``` html
+   <span> This is soan tag </span>
+```
+
+#### It is called image tag which is used to display the images in the browser. It is self-closing tag. It is has attributes like 
+
+##### a) alt: It is used to describe the image or give caption it. It means alternative text which plays important role in SEO.
+
+##### b) width & height: It is used to provide width and height to images and the unit used are % or px.
+
+``` html
+    Syntax- <img src="url of image or file name of image.extension" alt="It is a image tag" width="20%" height= "20%"/> 
+```
+#### It is called video tag used to display the videos in the web browser. 
+
+##### Here attributes are width, height, controls (to give control to user), autoplay (to play automatically), loop (for playing video continously), muted (to mute the video), poster="url" (It is used to display thumbnail)
+
+``` html
+   Syntax- <video src= "url" width= "20px" height ="20px" autoplay poster="url of image" controls>
+               Video Not Supported
+           </video>
+```
+#### It is called anchor tag which is used to create link or hyperlink. Here attribute used is called *href* which is called hyperlink reference.
+
+``` html
+    Syntax- <a href="#"> Link </a>
+
+    The # can include url of link or file name.extension
+
+    If it is URL(Uniform Resource Locator) then called Absolute Path otherwise if file name is mentioned than it is Relative Path. For adding 
+    relative path in a tag we use ./ before mentioning the file name.
+```
+
+
