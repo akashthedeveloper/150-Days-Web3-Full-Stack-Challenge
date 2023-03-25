@@ -133,7 +133,7 @@ Syntax of entities: &entity_name; OR  &#entity_number;
    <li> This is a list tag </li>
 ```
 
-##### a) Ordered list: It is used to dispaly order such as number, alphabet, etc.
+##### 1) Ordered list: It is used to display order list with number, alphabet, etc.
 
 ```html
   <ol> This is a order list </ol>
@@ -150,3 +150,14 @@ Syntax of entities: &entity_name; OR  &#entity_number;
 ```html
    <ol type= "A: for capital letters, a: for small letters, I: for roman big number, i: for roman small number"> </ol>
 ```
+##### 2) Unordered list: It is used to display unorderd list with dot & square
+
+``` html
+    <ul> 
+      <li> DSA </li>
+      <li> Development </li>
+    </ul>
+```
+
+##### Nesting - It is used to put one tag into another.
+
