@@ -21,7 +21,7 @@ This is the basic structure of HTML
 
 #### It varies from h1 to h6 where h1 is the biggest and h6 is the smallest
 ```html
-<h1> This is heading tag </h1>
+<h1> This is  largest heading tag </h1>
 <h6> This is smallest heading tag </h6>
 ```
 #### It is used to divide the page into section and allow to group the items to apply the same style
@@ -194,6 +194,14 @@ Syntax of entities: &entity_name; OR  &#entity_number;
 
     If it is URL(Uniform Resource Locator) then called Absolute Path otherwise if file name is mentioned than it is Relative Path. For adding 
     relative path in a tag we use ./ before mentioning the file name.
+
+    
 ```
+#### For adding link to image
 
-
+``` html
+   
+   <a href="url" target="_blank"> <img src ="url"/> </a>
+   
+   For making browser open in a new page we use target="_blank"
+```
