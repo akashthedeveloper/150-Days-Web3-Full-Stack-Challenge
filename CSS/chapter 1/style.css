@@ -1,6 +1,5 @@
-
 p {
-    color: blueviolet;
+    color: #333;
 }
 
 .gray {
@@ -8,15 +7,22 @@ p {
 }
 
 #pink {
-    color: pink;
+    color: rgb(11, 11, 11);
 }
 
 body {
     font-size: 25px;
     padding: 0px;
     border: 0px;
+    background-color: #ffd9b8;
+    color: #000
 }
 
 h1, h2 {
-   font-size: largeer;
+   font-size: larger;
+}
+
+.article-unit {
+   border:2px dashed rgb(225, 53, 53);
+   width: 50%;
 }

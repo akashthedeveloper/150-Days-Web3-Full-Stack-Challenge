@@ -60,3 +60,39 @@ p {
 
 - CSS Properties
 
+1) Colors: The color property is used to give color to the web page or an element.
+
+   a) background-color: It is used for back-ground color of the web page or an element.
+```
+   eg: background-color: red;
+```
+   b) color: It is a property to provide color to an element. It can also be written in rgb values where **rgb** stands for red , green, and blue and its value can go from o-255. Also there is a value **a** which stands for alpha which means opacity and its value can go from 0-1.
+```
+   eg: color: black;
+    
+       color: rgb(255,255,255);
+
+       color: rgba(255, 0, 0, 0.5);
+```
+ The color can also be represented by hex-decimal code which values can go from 0-F
+```
+eg: color: #FFFFFF; - It corresponds to whte color. It can be also written using shorthand #FFF.
+
+    color: #F00 - It corresponds to red color.
+```
+The another way to write the color is the **hsl** which stands for hue , saturation and lightness where hue value can go from 0-360 degree where 0 is red, 120 is green and 240 is blue, ,saturation value can go from 0-100% which means 0% is shade of gray and 100% is full color and lightness value can go from 0-100% which means 0% is black and 100% is white.
+
+```
+eg: color: hsl(224, 50%, 75%);
+    
+    color: hsla(120, 50%, 100%, 0.5); - Here a means alpha which is for opacity.
+```
+
+
+2) CSS Units
+   
+   a) font-size: It is used for font-sze of an element. There are 2 types of units :
+
+   1] Absolute units: The absolute units are the units which are independent like **pixels(px)** and are not depended on another element for its size.
+
+   2] Relative units:The relative units is the units which depends on another element like **%** and its will change respect to main element.
