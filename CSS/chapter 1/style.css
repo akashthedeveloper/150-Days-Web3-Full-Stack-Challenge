@@ -1,3 +1,7 @@
+*{
+    box-sizing:border-box;
+}
+
 p {
     color: #333;
 }
@@ -15,14 +19,28 @@ body {
     padding: 0px;
     border: 0px;
     background-color: #ffd9b8;
-    color: #000
+    color: #000;
+    min-height: 100vh;
 }
 
 h1, h2 {
    font-size: larger;
 }
 
-.article-unit {
-   border:2px dashed rgb(225, 53, 53);
-   width: 50%;
+.box-model{
+    border: 2px dashed red;
+    width: 50%;
+    padding : 1.5rem;
+    margin:1.5rem;
+}
+
+.box{
+    border: 2px dashed red;
+    width: 50%;
+    font-size:1.5rem;
+    padding: 1.5em;
+    margin-top:1.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
 }
