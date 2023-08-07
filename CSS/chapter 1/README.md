@@ -95,26 +95,37 @@ eg: color: hsl(224, 50%, 75%);
 
 
 
-   1] Absolute units: The absolute units are the units which are independent like **pixels(px)** and are not depended on another element for its size.
+   1] *Absolute units*: The absolute units are the units which are independent like **pixels(px)** and are not depended on another element for its size.
 
 
-   2] Relative units:The relative units is the units which depends on another element like **%** and its will change respect to main element.
+   2] *Relative units*:The relative units is the units which depends on another element like **%** and its will change respect to main element.
 
-3. CSS Box Model
+3. **CSS Box Model**
    
    The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
 
-   a) content: The content of the box where text and images appear
+   a) *content*: The content of the box where text and images appear
 
-   b) width & height: These properties define size of box.
+   b) *width & height*: These properties define size of box.
    
-   c) padding: It adds extra space around content inside an HTML element.
+   c) *padding*: It adds extra space around content inside an HTML element.
 
-   d) border: It creates a line around an HTML element.
+   d) *border*: It creates a line around an HTML element.
 
-   e) margin: It defines space between two elements. Margin is transparent and does not show up when we see it in browser window.
+   e) *margin*: It defines space between two elements. Margin is transparent and does not show up when we see it in browser window.
 
 ```
 Order of CSS Box Model Inside To Out
 Content -> Padding -> Border -> Margin
 ```
+```
+Order of side properties are in clockwise-direction : Top> Right> Bottom> Left
+```
+- Outline: It is similar to border property which is not included in css box model but does not take up space.
+
+eg: outline: 5px solid purple;
+
+The outline has another property called outline-offset which can also take negative values.
+
+- Typography: It is the way text is arranged and presented 
+
