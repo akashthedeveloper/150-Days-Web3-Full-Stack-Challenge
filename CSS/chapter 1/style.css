@@ -65,11 +65,11 @@ h1, h2 {
     border-radius: 50%;
 }
 */
-
+/* CSS Typography
 body{
-    padding:10%;
+    padding:5%;
     font-size: 2rem;
-    color:goldenrod;  
+    color:goldenrod;
 }
 
 input, button{
@@ -85,4 +85,45 @@ p{
     line-height: 1.2;
     letter-spacing: 0.1em;
     word-spacing: 0,3em;
+    border: 2px double goldenrod;
+    margin: 3rem auto;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-style:oblique;
+    font-family: 'Times New Roman', Times, serif;
 }
+*/
+
+/* CSS Links*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color:hsl(269, 78%, 48%);
+}
+/*
+a:visited{
+    color: purple;
+}
+*/
+
+main{
+    opacity: 1;   
+}
+
+a:hover,a:focus{
+    color:hsl(264, 84%, 22%);
+    background: gold;
+}
+
+a:active{
+    color:red;   
+}
+

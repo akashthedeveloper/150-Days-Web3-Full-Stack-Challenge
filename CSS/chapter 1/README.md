@@ -127,5 +127,9 @@ eg: outline: 5px solid purple;
 
 The outline has another property called outline-offset which can also take negative values.
 
-- Typography: It is the way text is arranged and presented 
+4. **Typography**: It is the way text is arranged and presented 
 
+- It includes property like **text-ident, text-decoration, text-transform, text-align, text-shadow, line-height, letter-spacing, word-spacing, font-weight, font-style, font-family**
+
+5. **CSS Links**:
+   
