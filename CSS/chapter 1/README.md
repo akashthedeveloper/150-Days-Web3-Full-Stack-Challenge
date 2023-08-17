@@ -131,5 +131,5 @@ The outline has another property called outline-offset which can also take negat
 
 - It includes property like **text-ident, text-decoration, text-transform, text-align, text-shadow, line-height, letter-spacing, word-spacing, font-weight, font-style, font-family**
 
-5. **CSS Links**:
+1. **CSS Links**:
    
