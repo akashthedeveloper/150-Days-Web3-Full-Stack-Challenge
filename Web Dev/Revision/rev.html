@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="volume"> Volume Control</label>
+        <input type="range" name="range" id="volume" min="0" max="100" step="1"> 
+        <br>
+        <br>
+    
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" pattern="[0-9a-zA-Z]{8-10}" required>
+        <br>
+        <br>
+        <label for="country">Which country you are from?</label>
+        <select name="country" id="country" aria-placeholder="select">
+            <option value="india">India</option>
+            <option value="america">America</option>
+            <option value="china">China</option>
+            <option value="japan">Japan</option>
+            <option value="uk">Uk</option>
+            <option value="dubai">Dubai</option>
+            <option value="singapore">Singapore</option>
+            <option value="germany">Germany</option>
+        </select>
+
+
+        <br>
+        <br>
+
+        <label for="city">Which city you are from?</label>
+        <input type="text" name="city" id="city" list="cities">
+        <datalist id="cities">
+            <option value="Mumbai"></option>
+            <option value="Delhi"></option>
+            <option value="Bangalore"></option>
+            <option value="Hyderabad"></option>
+            <option value="Chennai"></option>
+            <option value="Assam"></option>
+            <option value="Pune"></option>
+            <option value="Indore"></option>
+        </datalist>
+        <br>
+        <br>
+        <label for="comment">Share your feedback with us</label>
+        <textarea name="comment" id="comment" cols="10"rows="10"></textarea>
+        <br>
+        <br>
+
+        
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
