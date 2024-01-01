@@ -1,0 +1,22 @@
+h1{
+    color: rgba(255, 51, 102, 0.69);
+}
+
+.para{
+    color:rgb(198, 126, 37);
+}
+
+#link{
+    background-color: rgb(60, 45, 45);
+    color: rgb(231, 230, 230);
+    text-decoration: none;
+}
+
+#link:hover{
+    color: rgb(229, 58, 7);
+    font-weight: thin;
+}
+
+h1:hover{
+    color:blue; 
+}
