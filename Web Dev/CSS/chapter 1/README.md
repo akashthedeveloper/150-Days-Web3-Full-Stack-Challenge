@@ -82,6 +82,28 @@ eg: color: #FFFFFF; - It corresponds to whte color. It can be also written using
 ```
 The another way to write the color is the **hsl** which stands for hue , saturation and lightness where hue value can go from 0-360 degree where 0 is red, 120 is green and 240 is blue, ,saturation value can go from 0-100% which means 0% is shade of gray and 100% is full color and lightness value can go from 0-100% which means 0% is black and 100% is white.
 
+Question: How to make the text color of an element completely transparent?
+
+- To make an element completely transparent use this property
+```
+h1{
+   color: transparent;
+}
+```
+Question: How can you set the text color of an element to match the current color of another property within the same element?
+
+- Use the color property initially to set the initial color of an element later use this property to an corresponding element.
+
+```
+.h1{
+   color: blue;
+}
+
+p{
+   color: currentColor;
+}
+```
+
 ```
 eg: color: hsl(224, 50%, 75%);
     
@@ -89,7 +111,7 @@ eg: color: hsl(224, 50%, 75%);
 ```
 
 
-2) CSS Units
+1) CSS Units
    
    a) font-size: It is used for font-sze of an element. There are 2 types of units :
 

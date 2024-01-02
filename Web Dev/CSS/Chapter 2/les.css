@@ -4,7 +4,7 @@ h1{
 
 .para{
     color:rgb(198, 126, 37);
-}
+} 
 
 #link{
     background-color: rgb(60, 45, 45);
@@ -13,10 +13,10 @@ h1{
 }
 
 #link:hover{
-    color: rgb(229, 58, 7);
+    color: 18134 ;
     font-weight: thin;
 }
 
 h1:hover{
-    color:blue; 
+    color:rgba(0, 0, 255, 0.8)
 }
