@@ -82,6 +82,14 @@ eg: color: #FFFFFF; - It corresponds to whte color. It can be also written using
 ```
 The another way to write the color is the **hsl** which stands for hue , saturation and lightness where hue value can go from 0-360 degree where 0 is red, 120 is green and 240 is blue, ,saturation value can go from 0-100% which means 0% is shade of gray and 100% is full color and lightness value can go from 0-100% which means 0% is black and 100% is white.
 
+**Hue**- a pure color
+
+**Tint** - a pure color with just added white
+
+**Shade**- a pure color with just black added
+
+**Tone** - a pure color with just grey added 
+
 Question: How to make the text color of an element completely transparent?
 
 - To make an element completely transparent use this property
@@ -110,8 +118,24 @@ eg: color: hsl(224, 50%, 75%);
     color: hsla(120, 50%, 100%, 0.5); - Here a means alpha which is for opacity.
 ```
 
+**Background Properties**
 
-1) CSS Units
+a) background-color
+
+b) background-image
+
+c) background-repeat
+
+d) background-position
+
+e) background-size
+
+f) background-attachment
+
+g) background-blend-mode
+
+
+3) CSS Units
    
    a) font-size: It is used for font-sze of an element. There are 2 types of units :
 
